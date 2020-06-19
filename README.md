@@ -4,7 +4,7 @@ This repo is used to create the **Perfecting Product website**
 
 All code here has been written from scratch using vanilla javascript.
 
-It uses _webpack module_ bundler and _webpack-dev-server_ to speed up development and developer collaboration
+It uses _webpack module_ bundler and _webpack-dev-server_ to speed up development and enhance developer collaboration
 
 **To get Started:**
 
