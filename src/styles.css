@@ -67,11 +67,27 @@ input[type="submit"] {
 #fade {
   margin-top: 25px;
   text-align: center;
-  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 5s; /* Firefox < 16 */
-  -ms-animation: fadein 5s; /* Internet Explorer */
-  -o-animation: fadein 5s; /* Opera < 12.1 */
-  animation: fadein 5s;
+  opacity: 0;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1200ms;
+}
+
+#double-fade {
+  margin-top: 25px;
+  text-align: center;
+  opacity: 0;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1800ms;
 }
 
 @keyframes fadein {
