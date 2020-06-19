@@ -62,6 +62,8 @@ input[type="submit"] {
 .footer-image {
   width: 32px;
   padding-top: 8px;
+  display: block;
+  margin: 0 auto;
 }
 
 #fade {
